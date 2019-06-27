@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -21,6 +22,8 @@ header{
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)),url(capa.jpg) center no-repeat;
     background-size: cover;
+    font-family: 'Mali', cursive;
+    background-attachment: fixed;
 }
 
 .container{
@@ -137,61 +140,25 @@ nav ul li a:hover::after{
 
 
 section#principal{
-        margin-top: 1000px;
-        position:relative;
-        max-width:1200px;
-        height :auto;
-        left:1.5%;	
-        background-color: red;
+    margin-top: 530px;
+    width:100%;
+    height :auto;
+     position: absolute;
 }
 
 article.programas{
-	margin:10px 20px;
-	float:left;
-    width:29%;/* 300px */ 
-    background-color: blue;
+	margin:10px 50px;
+    float: left;  
 }
 
-section#principal2{
-    margin-top: 1350px;
-    position:relative;
-    max-width:1200px;
-    height :auto;
-    left:1.5%;	
-    background-color: red;
+#amazon{
+  height: 100%;
+  right: 10vw;
+  top: 10vw;
+  position: relative;
+  float: right;
+  font-family: 'Mali', cursive;
+  font-size: 40pt;
+  color: rgb(24, 22, 22);
+   
 }
-
-article.programas2{
-margin:10px 20px;
-float:left;
-width:29%;/* 300px */ 
-background-color: blue;
-
-}
-
-section#principal3{
-    margin-top: 1750px;
-    position:relative;
-    max-width:1200px;
-    height :auto;
-    left:1.5%;	
-    background-color: red;
-}
-
-article.programas3{
-margin:10px 20px;
-float:left;
-width:29%;/* 300px */ 
-background-color: blue;
-}
-
-footer{
-        width: 1000vw;
-        height: 200px;
-        margin-top: 2200px;
-        background-color:black;
-        font-size: 20px;
-        color:gold;
-        padding: 50px 0px 0px 0px;
-}
-
